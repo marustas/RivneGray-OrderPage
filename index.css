@@ -1,3 +1,74 @@
+.header {
+  height: auto;
+  padding: 0 var(--padding-x-global);
+}
+
+.up,
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-y-global) 0;
+  gap: 50px;
+}
+
+.down {
+  gap: 100px;
+}
+
+.upLeft,
+.upRight {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contacts,
+.upRightInfo {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 16.44px;
+  color: var(--color-text-black);
+}
+
+.downLeft {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 115px;
+  flex-grow: 1;
+}
+
+.containerButton {
+  height: 100%;
+  width: 190px;
+}
+
+.downRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  height: 45px;
+}
+
+.iconNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.iconNav img {
+  height: 25px;
+  width: 25px;
+}
+
+.iconNav span {
+  font-size: 16px;
+}
+
 .footer {
   padding: var(--padding-y-global) var(--padding-x-global);
   background-color: var(--color-background-light);

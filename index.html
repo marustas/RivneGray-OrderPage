@@ -1,38 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Filter Element</title>
-  </head>
+</head>
 
-  <body>
-    <div></div>
-    <footer class="footer">
-      <div class="left">
-        м. Рівне, вул. Чорновола, 10 <br />
-        (біля ТЦ "Вікторія") <br />
-        Ми працюємо: <br />
-        Вт-Пт: 11:00 - 22:00 <br />
-        Сб-Нд: 11:00 23:00
-      </div>
-      <div className=".middle">
-        <b>Інформація:</b>
-        <div>Доставка та оплата</div>
-        <div>Обмін і повернення</div>
-        <div>Система знижок</div>
-        <div>Політика конфіденційності</div>
-      </div>
-      <div class="right">
-        <img src="{logo}" alt="logo" />
-        <div class="containerSocNet">
-          <img src="{facebookIcon}" alt="facebook" />
-          <img src="{instagramIcon}" alt="instagram" />
-          <img src="{telegramIcon}" alt="telegram" />
-          <img src="{tiktokIcon}" alt="tiktok" />
+<body>
+    <header class="header ">
+        <div class="up ">
+            <div class="upLeft ">
+                <Logo />
+                <div class="contacts "> м. Рівне, вул. Чорновола, 10 (біля ТЦ "Вікторія ")
+                </div>
+                <div class="contacts ">+ 8 (097) 000-00-00 </div>
+            </div>
+            <div class=.upRight}>
+                <div class="upRightInfo ">Доставка та оплата</div>
+                <div class="upRightInfo ">Про нас</div>
+                <div class="upRightInfo ">Зворотний зв'язок</div>
+            </div>
         </div>
-      </div>
+        <div class="down ">
+            <div class="downLeft ">
+                <div class="containerButton ">
+                    <ButtonYellow>
+                        <img src={listIcon} alt="listIcon " /> Каталог товарів
+                    </ButtonYellow>
+                </div>
+                <Search />
+            </div>
+            <div class="downRight ">
+                <Link to="/profile ">
+                <div class="iconNav ">
+                    <img src={userIcon} alt="user " />
+                    <span>Увійти</span>
+                </div>
+                </Link>
+                <Link to="/favorites ">
+                <div class="iconNav ">
+                    <img src={favoritesIcon} alt="favorites " />
+                    <span>Обрані</span>
+                </div>
+                </Link>
+                <Link to="/cart ">
+                <div class="iconNav ">
+                    <img src={cartIcon} alt="cart " />
+                    <span>Кошик</span>
+                </div>
+                </Link>
+            </div>
+        </div>
+    </header>
+    <div></div>
+    <footer class="footer ">
+        <div class="left ">
+            м. Рівне, вул. Чорновола, 10 <br /> (біля ТЦ "Вікторія ") <br /> Ми працюємо: <br /> Вт-Пт: 11:00 - 22:00 <br /> Сб-Нд: 11:00 23:00
+        </div>
+        <div class=".middle ">
+            <b>Інформація:</b>
+            <div>Доставка та оплата</div>
+            <div>Обмін і повернення</div>
+            <div>Система знижок</div>
+            <div>Політика конфіденційності</div>
+        </div>
+        <div class="right ">
+            <img src="{logo} " alt="logo " />
+            <div class="containerSocNet ">
+                <img src="{facebookIcon} " alt="facebook " />
+                <img src="{instagramIcon} " alt="instagram " />
+                <img src="{telegramIcon} " alt="telegram " />
+                <img src="{tiktokIcon} " alt="tiktok " />
+            </div>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
