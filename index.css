@@ -98,3 +98,27 @@
 .containerSocNet img {
   width: 30px;
 }
+
+.receive-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 5px;
+}
+
+.form-column input {
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+.order-element {
+  padding-left: 25%;
+  padding-right: 25%;
+}
